@@ -1,0 +1,72 @@
+2018-10-09 21:49:35 [Thread-1] INFO  log:186 - Logging initialized @820ms
+2018-10-09 21:49:35 [Thread-1] INFO  EmbeddedJettyServer:126 - == Spark has ignited ...
+2018-10-09 21:49:35 [Thread-1] INFO  EmbeddedJettyServer:127 - >> Listening on 0.0.0.0:4567
+2018-10-09 21:49:35 [Thread-1] INFO  Server:345 - jetty-9.3.6.v20151106
+2018-10-09 21:49:35 [Thread-1] ERROR EmbeddedJettyServer:133 - ignite failed
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[?:1.8.0_181]
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:326) ~[jetty-server-9.3.6.v20151106.jar:9.3.6.v20151106]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80) ~[jetty-server-9.3.6.v20151106.jar:9.3.6.v20151106]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:244) ~[jetty-server-9.3.6.v20151106.jar:9.3.6.v20151106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.3.6.v20151106.jar:9.3.6.v20151106]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:384) ~[jetty-server-9.3.6.v20151106.jar:9.3.6.v20151106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.3.6.v20151106.jar:9.3.6.v20151106]
+	at spark.embeddedserver.jetty.EmbeddedJettyServer.ignite(EmbeddedJettyServer.java:129) ~[spark-core-2.5.4.jar:?]
+	at spark.Service.lambda$init$1(Service.java:452) ~[spark-core-2.5.4.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2018-10-09 21:49:46 [Thread-1] INFO  log:186 - Logging initialized @785ms
+2018-10-09 21:49:46 [Thread-1] INFO  EmbeddedJettyServer:126 - == Spark has ignited ...
+2018-10-09 21:49:46 [Thread-1] INFO  EmbeddedJettyServer:127 - >> Listening on 0.0.0.0:4567
+2018-10-09 21:49:46 [Thread-1] INFO  Server:345 - jetty-9.3.6.v20151106
+2018-10-09 21:49:46 [Thread-1] ERROR EmbeddedJettyServer:133 - ignite failed
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[?:1.8.0_181]
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:326) ~[jetty-server-9.3.6.v20151106.jar:9.3.6.v20151106]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80) ~[jetty-server-9.3.6.v20151106.jar:9.3.6.v20151106]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:244) ~[jetty-server-9.3.6.v20151106.jar:9.3.6.v20151106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.3.6.v20151106.jar:9.3.6.v20151106]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:384) ~[jetty-server-9.3.6.v20151106.jar:9.3.6.v20151106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.3.6.v20151106.jar:9.3.6.v20151106]
+	at spark.embeddedserver.jetty.EmbeddedJettyServer.ignite(EmbeddedJettyServer.java:129) ~[spark-core-2.5.4.jar:?]
+	at spark.Service.lambda$init$1(Service.java:452) ~[spark-core-2.5.4.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2018-10-09 21:50:00 [Thread-1] INFO  log:186 - Logging initialized @727ms
+2018-10-09 21:50:00 [Thread-1] INFO  EmbeddedJettyServer:126 - == Spark has ignited ...
+2018-10-09 21:50:00 [Thread-1] INFO  EmbeddedJettyServer:127 - >> Listening on 0.0.0.0:45678
+2018-10-09 21:50:00 [Thread-1] INFO  Server:345 - jetty-9.3.6.v20151106
+2018-10-09 21:50:00 [Thread-1] ERROR EmbeddedJettyServer:133 - ignite failed
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[?:1.8.0_181]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[?:1.8.0_181]
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:326) ~[jetty-server-9.3.6.v20151106.jar:9.3.6.v20151106]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80) ~[jetty-server-9.3.6.v20151106.jar:9.3.6.v20151106]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:244) ~[jetty-server-9.3.6.v20151106.jar:9.3.6.v20151106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.3.6.v20151106.jar:9.3.6.v20151106]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:384) ~[jetty-server-9.3.6.v20151106.jar:9.3.6.v20151106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.3.6.v20151106.jar:9.3.6.v20151106]
+	at spark.embeddedserver.jetty.EmbeddedJettyServer.ignite(EmbeddedJettyServer.java:129) ~[spark-core-2.5.4.jar:?]
+	at spark.Service.lambda$init$1(Service.java:452) ~[spark-core-2.5.4.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2018-10-09 21:50:09 [Thread-1] INFO  log:186 - Logging initialized @747ms
+2018-10-09 21:50:09 [Thread-1] INFO  EmbeddedJettyServer:126 - == Spark has ignited ...
+2018-10-09 21:50:09 [Thread-1] INFO  EmbeddedJettyServer:127 - >> Listening on 0.0.0.0:45671
+2018-10-09 21:50:09 [Thread-1] INFO  Server:345 - jetty-9.3.6.v20151106
+2018-10-09 21:50:09 [Thread-1] INFO  ServerConnector:270 - Started ServerConnector@31296723{HTTP/1.1,[http/1.1]}{0.0.0.0:45671}
+2018-10-09 21:50:09 [Thread-1] INFO  Server:397 - Started @925ms
+2018-10-09 21:50:50 [Thread-1] INFO  log:186 - Logging initialized @710ms
+2018-10-09 21:50:50 [Thread-1] INFO  EmbeddedJettyServer:126 - == Spark has ignited ...
+2018-10-09 21:50:50 [Thread-1] INFO  EmbeddedJettyServer:127 - >> Listening on 0.0.0.0:45671
+2018-10-09 21:50:50 [Thread-1] INFO  Server:345 - jetty-9.3.6.v20151106
+2018-10-09 21:50:50 [Thread-1] INFO  ServerConnector:270 - Started ServerConnector@48cf992d{HTTP/1.1,[http/1.1]}{0.0.0.0:45671}
+2018-10-09 21:50:50 [Thread-1] INFO  Server:397 - Started @879ms
